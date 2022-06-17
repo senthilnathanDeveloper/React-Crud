@@ -1,0 +1,60 @@
+.wrapper{
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+}
+
+.wrapper .main{
+    display: flex !important;
+    align-items: center !important;
+    min-height: 100vh !important;
+}
+.wrapper .form-container{
+    width: 500px !important;
+    height: 340px !important;
+    background-color: #e4e4e4 !important;
+    padding: 20px !important;
+    margin: 20px auto !important;
+}
+.wrapper .form-container .btn{
+    width: 100% !important;
+}
+.wrapper .view-container{
+    width: 600px !important;
+    height: 500px !important;
+    overflow-y: scroll !important;
+    background-color: #e4e4e4 !important;
+    margin: 20px auto !important;
+    padding: 20px !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+.search-container{
+    width: 500px;
+    border-radius: 20px;
+    height: 35px !important;
+    min-height: 35px;
+    border: 1px white;
+    color: black !important;
+    font-weight: bold !important;
+    padding: 10px !important;
+}
+.delete-icon{
+    cursor: pointer;
+    color: red !important;
+}
+.edit-icon{
+    cursor: pointer;
+    color: blue;
+}
+.error{
+    color: red;
+}
+/* .btn-primary:hover{
+    background: lightgray;
+    border: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 20px;
+    height: 10vh;
+} */

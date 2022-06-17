@@ -1,0 +1,60 @@
+.wrapper{
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+}
+.wrapper .main{
+    display: flex !important;
+    align-items: center !important;
+}
+.wrapper .form-container{
+    width: 500px !important;
+    height: 340px !important;
+    background-color: #e4e4e4 !important;
+    padding: 20px !important;
+    margin: 20px auto !important;
+}
+.wrapper .form-container .btn{
+    width: 100% !important;
+}
+.wrapper .view-container{
+    width: 600px !important;
+    height: 500px !important;
+    overflow-y: scroll !important;
+    background-color: #e4e4e4 !important;
+    margin: 20px auto !important;
+    padding: 20px !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+.search-container{
+    width: 500px;
+    border-radius: 20px;
+    height: 35px !important;
+    min-height: 35px;
+    border: 1px white;
+    color: black !important;
+    font-weight: bold !important;
+    padding: 10px !important;
+}
+.fa-trash-can::before{
+    cursor: pointer;
+    color: red !important;
+}
+.fa-pen-to-square::before{
+    cursor: pointer;
+    color: blue;
+}
+header button{
+    position: relative;
+    left: 40%;
+    margin: 10px;
+}
+button{
+    font-weight: 700;
+    color: white;
+    background: blue;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    height: 30px
+}
